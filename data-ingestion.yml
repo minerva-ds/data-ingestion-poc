@@ -1,0 +1,11 @@
+name: data-ingestion
+channels:
+  - conda-forge
+dependencies:
+  - python  # Will use the latest compatible version
+  - aioftp
+  - asyncssh
+  - azure-storage-blob
+  - aiofiles
+  - pytest
+  - tqdm
