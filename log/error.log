@@ -1,0 +1,24 @@
+2024-10-05 20:38:10,293 - ERROR - Failed to connect to server ftp://anonymous:anonymous@ftp.freebsd.org. Remote path: /pub/FreeBSD/doc/en/books/faq/faq_en.pdf. Error: [Errno 39] Directory not empty: 'downloads/ftp.freebsd.org_21/pdf/faq_en.pdf/faq_en.pdf' -> 'downloads/ftp.freebsd.org_21/pdf/faq_en.pdf'
+2024-10-05 20:38:10,897 - ERROR - Failed to connect to server ftp://anonymous:anonymous@ftp.gnu.org. Remote path: /pub/find.txt.gz. Error: [Errno 39] Directory not empty: 'downloads/ftp.gnu.org_21/gz/find.txt.gz/find.txt.gz' -> 'downloads/ftp.gnu.org_21/gz/find.txt.gz'
+2024-10-05 20:38:11,186 - ERROR - Unexpected directory structure at downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz. Skipping further processing.
+2024-10-05 20:38:14,558 - ERROR - Failed to connect to server ftp://anonymous:anonymous@ftp.freebsd.org. Remote path: /pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz. Error: [Errno 39] Directory not empty: 'downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz/faq_en.tar.gz' -> 'downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz'
+2024-10-05 20:38:28,471 - ERROR - Unexpected directory structure at downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz. Skipping further processing.
+2024-10-05 20:40:46,786 - ERROR - Failed to connect to server ftp://anonymous:anonymous@ftp.freebsd.org. Remote path: /pub/FreeBSD/doc/en/books/faq/faq_en.pdf. Error: [Errno 39] Directory not empty: 'downloads/ftp.freebsd.org_21/pdf/faq_en.pdf/faq_en.pdf' -> 'downloads/ftp.freebsd.org_21/pdf/faq_en.pdf'
+2024-10-05 20:40:46,978 - ERROR - Failed to connect to server ftp://anonymous:anonymous@ftp.gnu.org. Remote path: /pub/find.txt.gz. Error: [Errno 39] Directory not empty: 'downloads/ftp.gnu.org_21/gz/find.txt.gz/find.txt.gz' -> 'downloads/ftp.gnu.org_21/gz/find.txt.gz'
+2024-10-05 20:40:47,268 - ERROR - Unexpected directory structure at downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz. Skipping further processing.
+2024-10-05 20:40:50,096 - ERROR - Failed to connect to server ftp://anonymous:anonymous@ftp.freebsd.org. Remote path: /pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz. Error: [Errno 39] Directory not empty: 'downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz/faq_en.tar.gz' -> 'downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz'
+2024-10-05 20:41:04,814 - ERROR - Unexpected directory structure at downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz. Skipping further processing.
+2024-10-05 20:50:31,499 - ERROR - Error downloading /gnu/gcc/gcc-2.95.1.tar.gz from ftp://anonymous:anonymous@ftp.gnu.org: [Errno 21] Is a directory: 'downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz'
+2024-10-05 20:50:31,499 - ERROR - Error downloading /pub/find.txt.gz from ftp://anonymous:anonymous@ftp.gnu.org: [Errno 21] Is a directory: 'downloads/ftp.gnu.org_21/gz/find.txt.gz'
+2024-10-05 20:50:31,499 - ERROR - Error downloading /pub/ls-lrRt.txt.gz from ftp://anonymous:anonymous@ftp.gnu.org: [Errno 21] Is a directory: 'downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz'
+2024-10-05 20:50:31,499 - ERROR - Error downloading /pub/FreeBSD/doc/en/books/faq/faq_en.pdf from ftp://anonymous:anonymous@ftp.freebsd.org: [Errno 21] Is a directory: 'downloads/ftp.freebsd.org_21/pdf/faq_en.pdf'
+2024-10-05 20:50:31,500 - ERROR - Error downloading /pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz from ftp://anonymous:anonymous@ftp.freebsd.org: [Errno 21] Is a directory: 'downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz'
+2024-10-05 21:01:39,862 - ERROR - Error in batch 1: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,862 - ERROR - Error in batch 2: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,862 - ERROR - Error in batch 4: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,862 - ERROR - Error in batch 3: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,862 - ERROR - Error in batch 5: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,862 - ERROR - Error in batch 6: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,862 - ERROR - Error in batch 7: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,863 - ERROR - Error in batch 8: daemonic processes are not allowed to have children
+2024-10-05 21:01:39,863 - ERROR - Error in batch 9: daemonic processes are not allowed to have children

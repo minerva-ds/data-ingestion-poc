@@ -1,0 +1,528 @@
+2024-10-05 20:38:07,164 - INFO - Started ingesting files with pid 25407
+2024-10-05 20:38:07,169 - INFO - Azure container already exists: your-azure-container-name
+2024-10-05 20:38:07,169 - INFO - Total batches to process: 9
+2024-10-05 20:38:07,176 - INFO - Batch 1 started processing.
+2024-10-05 20:38:07,176 - INFO - Batch 2 started processing.
+2024-10-05 20:38:07,176 - INFO - Batch 3 started processing.
+2024-10-05 20:38:07,176 - INFO - Batch 4 started processing.
+2024-10-05 20:38:07,177 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.gnu.org and path /gnu/gcc/gcc-2.95.1.tar.gz
+2024-10-05 20:38:07,177 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.gnu.org and path /pub/ls-lrRt.txt.gz
+2024-10-05 20:38:07,177 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.freebsd.org and path /pub/FreeBSD/doc/en/books/faq/faq_en.pdf
+2024-10-05 20:38:07,177 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.gnu.org and path /pub/find.txt.gz
+2024-10-05 20:38:07,177 - INFO - Remote filename: gcc_2.95.1.tar.gz and file_type gz
+2024-10-05 20:38:07,177 - INFO - Local dir: downloads/ftp.gnu.org_21/gz and local file_name gcc_2.95.1.tar.gz make downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 20:38:07,177 - INFO - Remote filename: ls_lrRt.txt.gz and file_type gz
+2024-10-05 20:38:07,177 - INFO - Local dir: downloads/ftp.gnu.org_21/gz and local file_name ls_lrRt.txt.gz make downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 20:38:07,177 - INFO - Remote filename: faq_en.pdf and file_type pdf
+2024-10-05 20:38:07,177 - INFO - Parsed server details: host=ftp.gnu.org, port=21, username=anonymous
+2024-10-05 20:38:07,177 - INFO - Parsed server details: host=ftp.gnu.org, port=21, username=anonymous
+2024-10-05 20:38:07,177 - INFO - Local dir: downloads/ftp.freebsd.org_21/pdf and local file_name faq_en.pdf make downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 20:38:07,177 - INFO - Remote filename: find.txt.gz and file_type gz
+2024-10-05 20:38:07,177 - INFO - Local dir: downloads/ftp.gnu.org_21/gz and local file_name find.txt.gz make downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 20:38:07,177 - INFO - Parsed server details: host=ftp.freebsd.org, port=21, username=anonymous
+2024-10-05 20:38:07,177 - INFO - Parsed server details: host=ftp.gnu.org, port=21, username=anonymous
+2024-10-05 20:38:07,698 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.gnu.org
+2024-10-05 20:38:07,711 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.freebsd.org
+2024-10-05 20:38:07,711 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.gnu.org
+2024-10-05 20:38:07,711 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.gnu.org
+2024-10-05 20:38:08,396 - INFO - ftp: /pub/FreeBSD/doc/en/books/faq/faq_en.pdf => downloads/ftp.freebsd.org_21/pdf/faq_en.pdf for faq_en.pdf
+2024-10-05 20:38:08,474 - INFO - ftp: /pub/ls-lrRt.txt.gz => downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz for ls_lrRt.txt.gz
+2024-10-05 20:38:08,485 - INFO - ftp: /gnu/gcc/gcc-2.95.1.tar.gz => downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz for gcc_2.95.1.tar.gz
+2024-10-05 20:38:08,506 - INFO - ftp: /pub/find.txt.gz => downloads/ftp.gnu.org_21/gz/find.txt.gz for find.txt.gz
+2024-10-05 20:38:10,294 - INFO - Batch 4 completed successfully in 3.12 seconds.
+2024-10-05 20:38:10,294 - INFO - Batch 5 started processing.
+2024-10-05 20:38:10,294 - INFO - Batch process completed with result: True
+2024-10-05 20:38:10,294 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.freebsd.org and path /pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz
+2024-10-05 20:38:10,294 - INFO - Remote filename: faq_en.tar.gz and file_type gz
+2024-10-05 20:38:10,294 - INFO - Local dir: downloads/ftp.freebsd.org_21/gz and local file_name faq_en.tar.gz make downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 20:38:10,294 - INFO - Parsed server details: host=ftp.freebsd.org, port=21, username=anonymous
+2024-10-05 20:38:10,593 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.freebsd.org
+2024-10-05 20:38:10,899 - INFO - Batch 2 completed successfully in 3.72 seconds.
+2024-10-05 20:38:10,899 - INFO - Batch 6 started processing.
+2024-10-05 20:38:10,899 - INFO - Batch process completed with result: True
+2024-10-05 20:38:10,900 - INFO - Connecting to server: sftp://demo:password@test.rebex.net:22 and path /readme.txt
+2024-10-05 20:38:10,900 - INFO - Remote filename: readme.txt and file_type txt
+2024-10-05 20:38:10,900 - INFO - Local dir: downloads/test.rebex.net_22/txt and local file_name readme.txt make downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:38:10,901 - INFO - Parsed server details: host=test.rebex.net, port=22, username=demo
+2024-10-05 20:38:11,188 - INFO - Batch 3 completed successfully in 4.01 seconds.
+2024-10-05 20:38:11,189 - INFO - Batch 7 started processing.
+2024-10-05 20:38:11,189 - INFO - Batch process completed with result: True
+2024-10-05 20:38:11,189 - INFO - Connecting to server: sftp://demo:password@test.rebex.net:22 and path /pub/example/KeyGenerator.png
+2024-10-05 20:38:11,190 - INFO - Remote filename: KeyGenerator.png and file_type png
+2024-10-05 20:38:11,190 - INFO - Local dir: downloads/test.rebex.net_22/png and local file_name KeyGenerator.png make downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:38:11,190 - INFO - Parsed server details: host=test.rebex.net, port=22, username=demo
+2024-10-05 20:38:11,322 - INFO - ftp: /pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz => downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz for faq_en.tar.gz
+2024-10-05 20:38:13,090 - INFO - SFTP connection established to sftp://demo:password@test.rebex.net:22
+2024-10-05 20:38:13,267 - INFO - SFTP connection established to sftp://demo:password@test.rebex.net:22
+2024-10-05 20:38:14,111 - INFO - Downloaded /readme.txt from SFTP server sftp://demo:password@test.rebex.net:22 to downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:38:14,111 - INFO - Preparing to upload: downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:38:14,111 - INFO - Sanitized Azure blob path: test.rebex.net_22/txt/1728182294/readme.txt, Original: server_folder=test.rebex.net_22, file_name=readme.txt
+2024-10-05 20:38:14,111 - INFO - File size: 379, Modified time: 1695121923
+2024-10-05 20:38:14,134 - INFO - Uploading downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728182294/readme.txt
+2024-10-05 20:38:14,143 - INFO - Successfully uploaded downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728182294/readme.txt
+2024-10-05 20:38:14,146 - INFO - Integrity check passed for downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:38:14,146 - INFO - Cleaning up local file downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:38:14,147 - INFO - Batch 6 completed successfully in 3.25 seconds.
+2024-10-05 20:38:14,147 - INFO - Batch 8 started processing.
+2024-10-05 20:38:14,147 - INFO - Batch process completed with result: True
+2024-10-05 20:38:14,147 - INFO - Connecting to server: sftp://demo:password@test.rebex.net:22 and path /pub/example/WinFormClient.png
+2024-10-05 20:38:14,147 - INFO - Remote filename: WinFormClient.png and file_type png
+2024-10-05 20:38:14,147 - INFO - Local dir: downloads/test.rebex.net_22/png and local file_name WinFormClient.png make downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:38:14,147 - INFO - Parsed server details: host=test.rebex.net, port=22, username=demo
+2024-10-05 20:38:14,559 - INFO - Batch 5 completed successfully in 4.27 seconds.
+2024-10-05 20:38:14,560 - INFO - Batch 9 started processing.
+2024-10-05 20:38:14,560 - INFO - Batch process completed with result: True
+2024-10-05 20:38:14,560 - INFO - Connecting to server: sftp://demo:demo@demo.wftpserver.com:2222 and path /download/manual_en.pdf
+2024-10-05 20:38:14,560 - INFO - Remote filename: manual_en.pdf and file_type pdf
+2024-10-05 20:38:14,560 - INFO - Local dir: downloads/demo.wftpserver.com_2222/pdf and local file_name manual_en.pdf make downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:38:14,560 - INFO - Parsed server details: host=demo.wftpserver.com, port=2222, username=demo
+2024-10-05 20:38:14,630 - INFO - Downloaded /pub/example/KeyGenerator.png from SFTP server sftp://demo:password@test.rebex.net:22 to downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:38:14,630 - INFO - Preparing to upload: downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:38:14,630 - INFO - Sanitized Azure blob path: test.rebex.net_22/png/1728182294/KeyGenerator.png, Original: server_folder=test.rebex.net_22, file_name=KeyGenerator.png
+2024-10-05 20:38:14,630 - INFO - File size: 36672, Modified time: 1174333978
+2024-10-05 20:38:14,645 - INFO - Uploading downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728182294/KeyGenerator.png
+2024-10-05 20:38:14,653 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728182294/KeyGenerator.png
+2024-10-05 20:38:14,655 - INFO - Integrity check passed for downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:38:14,655 - INFO - Cleaning up local file downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:38:14,655 - INFO - Batch 7 completed successfully in 3.47 seconds.
+2024-10-05 20:38:14,656 - INFO - Batch process completed with result: True
+2024-10-05 20:38:15,996 - INFO - SFTP connection established to sftp://demo:demo@demo.wftpserver.com:2222
+2024-10-05 20:38:16,103 - INFO - SFTP connection established to sftp://demo:password@test.rebex.net:22
+2024-10-05 20:38:17,481 - INFO - Downloaded /pub/example/WinFormClient.png from SFTP server sftp://demo:password@test.rebex.net:22 to downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:38:17,481 - INFO - Preparing to upload: downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:38:17,481 - INFO - Sanitized Azure blob path: test.rebex.net_22/png/1728182297/WinFormClient.png, Original: server_folder=test.rebex.net_22, file_name=WinFormClient.png
+2024-10-05 20:38:17,481 - INFO - File size: 80000, Modified time: 1174333979
+2024-10-05 20:38:17,505 - INFO - Uploading downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728182297/WinFormClient.png
+2024-10-05 20:38:17,514 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728182297/WinFormClient.png
+2024-10-05 20:38:17,516 - INFO - Integrity check passed for downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:38:17,516 - INFO - Cleaning up local file downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:38:17,516 - INFO - Batch 8 completed successfully in 3.37 seconds.
+2024-10-05 20:38:17,516 - INFO - Batch process completed with result: True
+2024-10-05 20:38:28,473 - INFO - Batch 1 completed successfully in 21.30 seconds.
+2024-10-05 20:38:28,474 - INFO - Batch process completed with result: True
+2024-10-05 20:38:34,440 - INFO - Downloaded /download/manual_en.pdf from SFTP server sftp://demo:demo@demo.wftpserver.com:2222 to downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:38:34,441 - INFO - Preparing to upload: downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:38:34,441 - INFO - Sanitized Azure blob path: demo.wftpserver.com_2222/pdf/1728182314/manual_en.pdf, Original: server_folder=demo.wftpserver.com_2222, file_name=manual_en.pdf
+2024-10-05 20:38:34,441 - INFO - File size: 11937824, Modified time: 1639800763
+2024-10-05 20:38:34,460 - INFO - Uploading downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728182314/manual_en.pdf
+2024-10-05 20:38:34,509 - INFO - Successfully uploaded downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728182314/manual_en.pdf
+2024-10-05 20:38:34,512 - INFO - Integrity check passed for downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:38:34,512 - INFO - Cleaning up local file downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:38:34,515 - INFO - Batch 9 completed successfully in 19.95 seconds.
+2024-10-05 20:38:34,515 - INFO - Batch process completed with result: True
+2024-10-05 20:38:34,518 - INFO - Batch processing complete. 9 succeeded, 0 failed out of 9 total batches.
+2024-10-05 20:40:44,239 - INFO - Started ingesting files with pid 25977
+2024-10-05 20:40:44,243 - INFO - Azure container already exists: your-azure-container-name
+2024-10-05 20:40:44,243 - INFO - Total batches to process: 9
+2024-10-05 20:40:44,250 - INFO - Batch 1 started processing.
+2024-10-05 20:40:44,250 - INFO - Batch 2 started processing.
+2024-10-05 20:40:44,250 - INFO - Batch 3 started processing.
+2024-10-05 20:40:44,250 - INFO - Batch 4 started processing.
+2024-10-05 20:40:44,251 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.gnu.org and path /gnu/gcc/gcc-2.95.1.tar.gz
+2024-10-05 20:40:44,251 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.gnu.org and path /pub/find.txt.gz
+2024-10-05 20:40:44,251 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.gnu.org and path /pub/ls-lrRt.txt.gz
+2024-10-05 20:40:44,251 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.freebsd.org and path /pub/FreeBSD/doc/en/books/faq/faq_en.pdf
+2024-10-05 20:40:44,251 - INFO - Remote filename: gcc_2.95.1.tar.gz and file_type gz
+2024-10-05 20:40:44,251 - INFO - Remote filename: find.txt.gz and file_type gz
+2024-10-05 20:40:44,251 - INFO - Local dir: downloads/ftp.gnu.org_21/gz and local file_name gcc_2.95.1.tar.gz make downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 20:40:44,251 - INFO - Local dir: downloads/ftp.gnu.org_21/gz and local file_name find.txt.gz make downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 20:40:44,251 - INFO - Remote filename: ls_lrRt.txt.gz and file_type gz
+2024-10-05 20:40:44,251 - INFO - Local dir: downloads/ftp.gnu.org_21/gz and local file_name ls_lrRt.txt.gz make downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 20:40:44,251 - INFO - Remote filename: faq_en.pdf and file_type pdf
+2024-10-05 20:40:44,251 - INFO - Parsed server details: host=ftp.gnu.org, port=21, username=anonymous
+2024-10-05 20:40:44,251 - INFO - Local dir: downloads/ftp.freebsd.org_21/pdf and local file_name faq_en.pdf make downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 20:40:44,251 - INFO - Parsed server details: host=ftp.gnu.org, port=21, username=anonymous
+2024-10-05 20:40:44,251 - INFO - Parsed server details: host=ftp.gnu.org, port=21, username=anonymous
+2024-10-05 20:40:44,251 - INFO - Parsed server details: host=ftp.freebsd.org, port=21, username=anonymous
+2024-10-05 20:40:44,592 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.freebsd.org
+2024-10-05 20:40:44,610 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.gnu.org
+2024-10-05 20:40:44,610 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.gnu.org
+2024-10-05 20:40:44,610 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.gnu.org
+2024-10-05 20:40:45,224 - INFO - ftp: /pub/FreeBSD/doc/en/books/faq/faq_en.pdf => downloads/ftp.freebsd.org_21/pdf/faq_en.pdf for faq_en.pdf
+2024-10-05 20:40:45,300 - INFO - ftp: /pub/ls-lrRt.txt.gz => downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz for ls_lrRt.txt.gz
+2024-10-05 20:40:45,321 - INFO - ftp: /gnu/gcc/gcc-2.95.1.tar.gz => downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz for gcc_2.95.1.tar.gz
+2024-10-05 20:40:45,324 - INFO - ftp: /pub/find.txt.gz => downloads/ftp.gnu.org_21/gz/find.txt.gz for find.txt.gz
+2024-10-05 20:40:46,788 - INFO - Batch 4 completed successfully in 2.54 seconds.
+2024-10-05 20:40:46,788 - INFO - Batch 5 started processing.
+2024-10-05 20:40:46,789 - INFO - Connecting to server: ftp://anonymous:anonymous@ftp.freebsd.org and path /pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz
+2024-10-05 20:40:46,789 - INFO - Batch process completed with result: True
+2024-10-05 20:40:46,789 - INFO - Remote filename: faq_en.tar.gz and file_type gz
+2024-10-05 20:40:46,789 - INFO - Local dir: downloads/ftp.freebsd.org_21/gz and local file_name faq_en.tar.gz make downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 20:40:46,789 - INFO - Parsed server details: host=ftp.freebsd.org, port=21, username=anonymous
+2024-10-05 20:40:46,980 - INFO - Batch 2 completed successfully in 2.73 seconds.
+2024-10-05 20:40:46,981 - INFO - Batch 6 started processing.
+2024-10-05 20:40:46,981 - INFO - Batch process completed with result: True
+2024-10-05 20:40:46,981 - INFO - Connecting to server: sftp://demo:password@test.rebex.net:22 and path /readme.txt
+2024-10-05 20:40:46,982 - INFO - Remote filename: readme.txt and file_type txt
+2024-10-05 20:40:46,982 - INFO - Local dir: downloads/test.rebex.net_22/txt and local file_name readme.txt make downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:40:46,982 - INFO - Parsed server details: host=test.rebex.net, port=22, username=demo
+2024-10-05 20:40:47,071 - INFO - FTP connection established to ftp://anonymous:anonymous@ftp.freebsd.org
+2024-10-05 20:40:47,270 - INFO - Batch 3 completed successfully in 3.02 seconds.
+2024-10-05 20:40:47,270 - INFO - Batch 7 started processing.
+2024-10-05 20:40:47,271 - INFO - Batch process completed with result: True
+2024-10-05 20:40:47,271 - INFO - Connecting to server: sftp://demo:password@test.rebex.net:22 and path /pub/example/KeyGenerator.png
+2024-10-05 20:40:47,271 - INFO - Remote filename: KeyGenerator.png and file_type png
+2024-10-05 20:40:47,271 - INFO - Local dir: downloads/test.rebex.net_22/png and local file_name KeyGenerator.png make downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:40:47,271 - INFO - Parsed server details: host=test.rebex.net, port=22, username=demo
+2024-10-05 20:40:47,704 - INFO - ftp: /pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz => downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz for faq_en.tar.gz
+2024-10-05 20:40:48,740 - INFO - SFTP connection established to sftp://demo:password@test.rebex.net:22
+2024-10-05 20:40:49,157 - INFO - SFTP connection established to sftp://demo:password@test.rebex.net:22
+2024-10-05 20:40:49,762 - INFO - Downloaded /readme.txt from SFTP server sftp://demo:password@test.rebex.net:22 to downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:40:49,762 - INFO - Preparing to upload: downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:40:49,762 - INFO - Sanitized Azure blob path: test.rebex.net_22/txt/1728182449/readme.txt, Original: server_folder=test.rebex.net_22, file_name=readme.txt
+2024-10-05 20:40:49,762 - INFO - File size: 379, Modified time: 1695121923
+2024-10-05 20:40:49,787 - INFO - Uploading downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728182449/readme.txt
+2024-10-05 20:40:49,796 - INFO - Successfully uploaded downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728182449/readme.txt
+2024-10-05 20:40:49,798 - INFO - Integrity check passed for downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:40:49,798 - INFO - Cleaning up local file downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:40:49,798 - INFO - Batch 6 completed successfully in 2.82 seconds.
+2024-10-05 20:40:49,799 - INFO - Batch 8 started processing.
+2024-10-05 20:40:49,799 - INFO - Batch process completed with result: True
+2024-10-05 20:40:49,799 - INFO - Connecting to server: sftp://demo:password@test.rebex.net:22 and path /pub/example/WinFormClient.png
+2024-10-05 20:40:49,799 - INFO - Remote filename: WinFormClient.png and file_type png
+2024-10-05 20:40:49,799 - INFO - Local dir: downloads/test.rebex.net_22/png and local file_name WinFormClient.png make downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:40:49,799 - INFO - Parsed server details: host=test.rebex.net, port=22, username=demo
+2024-10-05 20:40:50,098 - INFO - Batch 5 completed successfully in 3.31 seconds.
+2024-10-05 20:40:50,098 - INFO - Batch 9 started processing.
+2024-10-05 20:40:50,098 - INFO - Batch process completed with result: True
+2024-10-05 20:40:50,098 - INFO - Connecting to server: sftp://demo:demo@demo.wftpserver.com:2222 and path /download/manual_en.pdf
+2024-10-05 20:40:50,098 - INFO - Remote filename: manual_en.pdf and file_type pdf
+2024-10-05 20:40:50,098 - INFO - Local dir: downloads/demo.wftpserver.com_2222/pdf and local file_name manual_en.pdf make downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:40:50,099 - INFO - Parsed server details: host=demo.wftpserver.com, port=2222, username=demo
+2024-10-05 20:40:50,337 - INFO - Downloaded /pub/example/KeyGenerator.png from SFTP server sftp://demo:password@test.rebex.net:22 to downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:40:50,338 - INFO - Preparing to upload: downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:40:50,338 - INFO - Sanitized Azure blob path: test.rebex.net_22/png/1728182450/KeyGenerator.png, Original: server_folder=test.rebex.net_22, file_name=KeyGenerator.png
+2024-10-05 20:40:50,338 - INFO - File size: 36672, Modified time: 1174333978
+2024-10-05 20:40:50,381 - INFO - Uploading downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728182450/KeyGenerator.png
+2024-10-05 20:40:50,389 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728182450/KeyGenerator.png
+2024-10-05 20:40:50,392 - INFO - Integrity check passed for downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:40:50,392 - INFO - Cleaning up local file downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:40:50,392 - INFO - Batch 7 completed successfully in 3.12 seconds.
+2024-10-05 20:40:50,392 - INFO - Batch process completed with result: True
+2024-10-05 20:40:51,356 - INFO - SFTP connection established to sftp://demo:demo@demo.wftpserver.com:2222
+2024-10-05 20:40:51,561 - INFO - SFTP connection established to sftp://demo:password@test.rebex.net:22
+2024-10-05 20:40:52,916 - INFO - Downloaded /pub/example/WinFormClient.png from SFTP server sftp://demo:password@test.rebex.net:22 to downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:40:52,916 - INFO - Preparing to upload: downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:40:52,916 - INFO - Sanitized Azure blob path: test.rebex.net_22/png/1728182452/WinFormClient.png, Original: server_folder=test.rebex.net_22, file_name=WinFormClient.png
+2024-10-05 20:40:52,916 - INFO - File size: 80000, Modified time: 1174333979
+2024-10-05 20:40:52,949 - INFO - Uploading downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728182452/WinFormClient.png
+2024-10-05 20:40:52,957 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728182452/WinFormClient.png
+2024-10-05 20:40:52,959 - INFO - Integrity check passed for downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:40:52,959 - INFO - Cleaning up local file downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:40:52,960 - INFO - Batch 8 completed successfully in 3.16 seconds.
+2024-10-05 20:40:52,960 - INFO - Batch process completed with result: True
+2024-10-05 20:41:04,816 - INFO - Batch 1 completed successfully in 20.57 seconds.
+2024-10-05 20:41:04,816 - INFO - Batch process completed with result: True
+2024-10-05 20:41:09,604 - INFO - Downloaded /download/manual_en.pdf from SFTP server sftp://demo:demo@demo.wftpserver.com:2222 to downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:41:09,605 - INFO - Preparing to upload: downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:41:09,605 - INFO - Sanitized Azure blob path: demo.wftpserver.com_2222/pdf/1728182469/manual_en.pdf, Original: server_folder=demo.wftpserver.com_2222, file_name=manual_en.pdf
+2024-10-05 20:41:09,605 - INFO - File size: 11937824, Modified time: 1639800763
+2024-10-05 20:41:09,631 - INFO - Uploading downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728182469/manual_en.pdf
+2024-10-05 20:41:09,678 - INFO - Successfully uploaded downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728182469/manual_en.pdf
+2024-10-05 20:41:09,681 - INFO - Integrity check passed for downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:41:09,681 - INFO - Cleaning up local file downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:41:09,683 - INFO - Batch 9 completed successfully in 19.59 seconds.
+2024-10-05 20:41:09,683 - INFO - Batch process completed with result: True
+2024-10-05 20:41:09,687 - INFO - Batch processing complete. 9 succeeded, 0 failed out of 9 total batches.
+2024-10-05 20:50:31,489 - INFO - Started ingesting files with pid 29284
+2024-10-05 20:50:31,493 - INFO - Azure container already exists: your-azure-container-name
+2024-10-05 20:50:31,493 - INFO - Total batches to process: 9
+2024-10-05 20:50:31,499 - INFO - Batch 1 started processing.
+2024-10-05 20:50:31,499 - INFO - Batch 2 started processing.
+2024-10-05 20:50:31,499 - INFO - Batch 3 started processing.
+2024-10-05 20:50:31,499 - INFO - Batch 4 started processing.
+2024-10-05 20:50:31,499 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/gnu/gcc/gcc-2.95.1.tar.gz to downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 20:50:31,499 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/find.txt.gz to downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 20:50:31,499 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/ls-lrRt.txt.gz to downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 20:50:31,499 - INFO - Batch 2 completed successfully in 0.00 seconds.
+2024-10-05 20:50:31,499 - INFO - Batch 1 completed successfully in 0.00 seconds.
+2024-10-05 20:50:31,499 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.pdf to downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 20:50:31,499 - INFO - Batch 3 completed successfully in 0.00 seconds.
+2024-10-05 20:50:31,499 - INFO - Batch 5 started processing.
+2024-10-05 20:50:31,499 - INFO - Batch 4 completed successfully in 0.00 seconds.
+2024-10-05 20:50:31,499 - INFO - Batch 6 started processing.
+2024-10-05 20:50:31,499 - INFO - Batch 7 started processing.
+2024-10-05 20:50:31,500 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz to downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 20:50:31,499 - INFO - Batch process completed with result: True
+2024-10-05 20:50:31,500 - INFO - Batch 8 started processing.
+2024-10-05 20:50:31,500 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/KeyGenerator.png to downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:50:31,500 - INFO - Batch 5 completed successfully in 0.00 seconds.
+2024-10-05 20:50:31,500 - INFO - Downloading sftp://demo:password@test.rebex.net:22/readme.txt to downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:50:31,500 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/WinFormClient.png to downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:50:31,500 - INFO - Batch 9 started processing.
+2024-10-05 20:50:31,500 - INFO - Batch process completed with result: True
+2024-10-05 20:50:31,500 - INFO - Downloading sftp://demo:demo@demo.wftpserver.com:2222/download/manual_en.pdf to downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:50:31,500 - INFO - Batch process completed with result: True
+2024-10-05 20:50:31,500 - INFO - Batch process completed with result: True
+2024-10-05 20:50:31,500 - INFO - Batch process completed with result: True
+2024-10-05 20:50:34,772 - INFO - Uploading downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183034/KeyGenerator.png
+2024-10-05 20:50:34,789 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183034/KeyGenerator.png
+2024-10-05 20:50:34,789 - INFO - Cleaned up file downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:50:34,789 - INFO - Batch 7 completed successfully in 3.29 seconds.
+2024-10-05 20:50:34,789 - INFO - Batch process completed with result: True
+2024-10-05 20:50:34,916 - INFO - Uploading downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183034/readme.txt
+2024-10-05 20:50:34,935 - INFO - Successfully uploaded downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183034/readme.txt
+2024-10-05 20:50:34,935 - INFO - Cleaned up file downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:50:34,935 - INFO - Batch 6 completed successfully in 3.44 seconds.
+2024-10-05 20:50:34,936 - INFO - Batch process completed with result: True
+2024-10-05 20:50:35,276 - INFO - Uploading downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183035/WinFormClient.png
+2024-10-05 20:50:35,297 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183035/WinFormClient.png
+2024-10-05 20:50:35,298 - INFO - Cleaned up file downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:50:35,298 - INFO - Batch 8 completed successfully in 3.80 seconds.
+2024-10-05 20:50:35,298 - INFO - Batch process completed with result: True
+2024-10-05 20:50:56,250 - INFO - Uploading downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183056/manual_en.pdf
+2024-10-05 20:50:56,320 - INFO - Successfully uploaded downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183056/manual_en.pdf
+2024-10-05 20:50:56,322 - INFO - Cleaned up file downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:50:56,322 - INFO - Batch 9 completed successfully in 24.82 seconds.
+2024-10-05 20:50:56,322 - INFO - Batch process completed with result: True
+2024-10-05 20:50:56,325 - INFO - Batch processing complete. 9 succeeded, 0 failed out of 9 total batches.
+2024-10-05 20:51:16,263 - INFO - Started ingesting files with pid 29411
+2024-10-05 20:51:16,268 - INFO - Azure container already exists: your-azure-container-name
+2024-10-05 20:51:16,268 - INFO - Total batches to process: 9
+2024-10-05 20:51:16,274 - INFO - Batch 1 started processing.
+2024-10-05 20:51:16,274 - INFO - Batch 2 started processing.
+2024-10-05 20:51:16,274 - INFO - Batch 3 started processing.
+2024-10-05 20:51:16,274 - INFO - Batch 4 started processing.
+2024-10-05 20:51:16,274 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/gnu/gcc/gcc-2.95.1.tar.gz to downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 20:51:16,274 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/find.txt.gz to downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 20:51:16,275 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/ls-lrRt.txt.gz to downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 20:51:16,275 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.pdf to downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 20:51:18,282 - INFO - Uploading downloads/ftp.gnu.org_21/gz/find.txt.gz to Azure as ftp.gnu.org_21/gz/1728183078/find.txt.gz
+2024-10-05 20:51:18,309 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/find.txt.gz to Azure as ftp.gnu.org_21/gz/1728183078/find.txt.gz
+2024-10-05 20:51:18,310 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 20:51:18,310 - INFO - Batch 2 completed successfully in 2.04 seconds.
+2024-10-05 20:51:18,310 - INFO - Batch 5 started processing.
+2024-10-05 20:51:18,310 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz to downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 20:51:18,310 - INFO - Batch process completed with result: True
+2024-10-05 20:51:18,648 - INFO - Uploading downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz to Azure as ftp.gnu.org_21/gz/1728183078/ls_lrRt.txt.gz
+2024-10-05 20:51:18,679 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz to Azure as ftp.gnu.org_21/gz/1728183078/ls_lrRt.txt.gz
+2024-10-05 20:51:18,680 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 20:51:18,680 - INFO - Batch 3 completed successfully in 2.41 seconds.
+2024-10-05 20:51:18,680 - INFO - Batch 6 started processing.
+2024-10-05 20:51:18,680 - INFO - Batch process completed with result: True
+2024-10-05 20:51:18,681 - INFO - Downloading sftp://demo:password@test.rebex.net:22/readme.txt to downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:51:18,960 - INFO - Uploading downloads/ftp.freebsd.org_21/pdf/faq_en.pdf to Azure as ftp.freebsd.org_21/pdf/1728183078/faq_en.pdf
+2024-10-05 20:51:18,980 - INFO - Successfully uploaded downloads/ftp.freebsd.org_21/pdf/faq_en.pdf to Azure as ftp.freebsd.org_21/pdf/1728183078/faq_en.pdf
+2024-10-05 20:51:18,980 - INFO - Cleaned up file downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 20:51:18,980 - INFO - Batch 4 completed successfully in 2.71 seconds.
+2024-10-05 20:51:18,980 - INFO - Batch 7 started processing.
+2024-10-05 20:51:18,980 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/KeyGenerator.png to downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:51:18,980 - INFO - Batch process completed with result: True
+2024-10-05 20:51:20,837 - INFO - Uploading downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz to Azure as ftp.freebsd.org_21/gz/1728183080/faq_en.tar.gz
+2024-10-05 20:51:20,855 - INFO - Successfully uploaded downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz to Azure as ftp.freebsd.org_21/gz/1728183080/faq_en.tar.gz
+2024-10-05 20:51:20,856 - INFO - Cleaned up file downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 20:51:20,856 - INFO - Batch 5 completed successfully in 2.55 seconds.
+2024-10-05 20:51:20,856 - INFO - Batch 8 started processing.
+2024-10-05 20:51:20,856 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/WinFormClient.png to downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:51:20,856 - INFO - Batch process completed with result: True
+2024-10-05 20:51:21,524 - INFO - Uploading downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183081/readme.txt
+2024-10-05 20:51:21,533 - INFO - Successfully uploaded downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183081/readme.txt
+2024-10-05 20:51:21,533 - INFO - Cleaned up file downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:51:21,533 - INFO - Batch 6 completed successfully in 2.85 seconds.
+2024-10-05 20:51:21,533 - INFO - Batch 9 started processing.
+2024-10-05 20:51:21,533 - INFO - Downloading sftp://demo:demo@demo.wftpserver.com:2222/download/manual_en.pdf to downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:51:21,533 - INFO - Batch process completed with result: True
+2024-10-05 20:51:21,770 - INFO - Uploading downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183081/KeyGenerator.png
+2024-10-05 20:51:21,786 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183081/KeyGenerator.png
+2024-10-05 20:51:21,786 - INFO - Cleaned up file downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:51:21,786 - INFO - Batch 7 completed successfully in 2.81 seconds.
+2024-10-05 20:51:21,786 - INFO - Batch process completed with result: True
+2024-10-05 20:51:24,257 - INFO - Uploading downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183084/WinFormClient.png
+2024-10-05 20:51:24,272 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183084/WinFormClient.png
+2024-10-05 20:51:24,272 - INFO - Cleaned up file downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:51:24,273 - INFO - Batch 8 completed successfully in 3.42 seconds.
+2024-10-05 20:51:24,273 - INFO - Batch process completed with result: True
+2024-10-05 20:51:29,836 - INFO - Uploading downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz to Azure as ftp.gnu.org_21/gz/1728183089/gcc_2.95.1.tar.gz
+2024-10-05 20:51:29,895 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz to Azure as ftp.gnu.org_21/gz/1728183089/gcc_2.95.1.tar.gz
+2024-10-05 20:51:29,896 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 20:51:29,896 - INFO - Batch 1 completed successfully in 13.62 seconds.
+2024-10-05 20:51:29,896 - INFO - Batch process completed with result: True
+2024-10-05 20:51:43,051 - INFO - Uploading downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183103/manual_en.pdf
+2024-10-05 20:51:43,112 - INFO - Successfully uploaded downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183103/manual_en.pdf
+2024-10-05 20:51:43,113 - INFO - Cleaned up file downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:51:43,113 - INFO - Batch 9 completed successfully in 21.58 seconds.
+2024-10-05 20:51:43,113 - INFO - Batch process completed with result: True
+2024-10-05 20:51:43,116 - INFO - Batch processing complete. 9 succeeded, 0 failed out of 9 total batches.
+2024-10-05 20:54:04,907 - INFO - Started ingesting files with pid 29854
+2024-10-05 20:54:04,916 - INFO - Created Azure container: your-azure-container-name
+2024-10-05 20:54:04,916 - INFO - Total batches to process: 9
+2024-10-05 20:54:04,922 - INFO - Batch 1 started processing.
+2024-10-05 20:54:04,922 - INFO - Batch 2 started processing.
+2024-10-05 20:54:04,922 - INFO - Batch 3 started processing.
+2024-10-05 20:54:04,922 - INFO - Batch 4 started processing.
+2024-10-05 20:54:04,923 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/gnu/gcc/gcc-2.95.1.tar.gz to downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 20:54:04,923 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/find.txt.gz to downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 20:54:04,923 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/ls-lrRt.txt.gz to downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 20:54:04,923 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.pdf to downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 20:54:06,287 - INFO - Uploading downloads/ftp.gnu.org_21/gz/find.txt.gz to Azure as ftp.gnu.org_21/gz/1728183246/find.txt.gz
+2024-10-05 20:54:06,319 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/find.txt.gz to Azure as ftp.gnu.org_21/gz/1728183246/find.txt.gz
+2024-10-05 20:54:06,319 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 20:54:06,319 - INFO - Batch 2 completed successfully in 1.40 seconds.
+2024-10-05 20:54:06,319 - INFO - Batch 5 started processing.
+2024-10-05 20:54:06,320 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz to downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 20:54:06,320 - INFO - Batch process completed with result: True
+2024-10-05 20:54:06,734 - INFO - Uploading downloads/ftp.freebsd.org_21/pdf/faq_en.pdf to Azure as ftp.freebsd.org_21/pdf/1728183246/faq_en.pdf
+2024-10-05 20:54:06,748 - INFO - Successfully uploaded downloads/ftp.freebsd.org_21/pdf/faq_en.pdf to Azure as ftp.freebsd.org_21/pdf/1728183246/faq_en.pdf
+2024-10-05 20:54:06,748 - INFO - Cleaned up file downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 20:54:06,748 - INFO - Batch 4 completed successfully in 1.83 seconds.
+2024-10-05 20:54:06,749 - INFO - Batch 6 started processing.
+2024-10-05 20:54:06,749 - INFO - Downloading sftp://demo:password@test.rebex.net:22/readme.txt to downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:54:06,749 - INFO - Batch process completed with result: True
+2024-10-05 20:54:06,792 - INFO - Uploading downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz to Azure as ftp.gnu.org_21/gz/1728183246/ls_lrRt.txt.gz
+2024-10-05 20:54:06,801 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz to Azure as ftp.gnu.org_21/gz/1728183246/ls_lrRt.txt.gz
+2024-10-05 20:54:06,801 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 20:54:06,801 - INFO - Batch 3 completed successfully in 1.88 seconds.
+2024-10-05 20:54:06,801 - INFO - Batch 7 started processing.
+2024-10-05 20:54:06,801 - INFO - Batch process completed with result: True
+2024-10-05 20:54:06,802 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/KeyGenerator.png to downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:54:08,848 - INFO - Uploading downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz to Azure as ftp.freebsd.org_21/gz/1728183248/faq_en.tar.gz
+2024-10-05 20:54:08,867 - INFO - Successfully uploaded downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz to Azure as ftp.freebsd.org_21/gz/1728183248/faq_en.tar.gz
+2024-10-05 20:54:08,868 - INFO - Cleaned up file downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 20:54:08,868 - INFO - Batch 5 completed successfully in 2.55 seconds.
+2024-10-05 20:54:08,868 - INFO - Batch 8 started processing.
+2024-10-05 20:54:08,868 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/WinFormClient.png to downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:54:08,868 - INFO - Batch process completed with result: True
+2024-10-05 20:54:09,299 - INFO - Uploading downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183249/readme.txt
+2024-10-05 20:54:09,305 - INFO - Successfully uploaded downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183249/readme.txt
+2024-10-05 20:54:09,305 - INFO - Cleaned up file downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 20:54:09,306 - INFO - Batch 6 completed successfully in 2.56 seconds.
+2024-10-05 20:54:09,306 - INFO - Batch 9 started processing.
+2024-10-05 20:54:09,306 - INFO - Downloading sftp://demo:demo@demo.wftpserver.com:2222/download/manual_en.pdf to downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:54:09,306 - INFO - Batch process completed with result: True
+2024-10-05 20:54:09,523 - INFO - Uploading downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183249/KeyGenerator.png
+2024-10-05 20:54:09,543 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183249/KeyGenerator.png
+2024-10-05 20:54:09,543 - INFO - Cleaned up file downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 20:54:09,543 - INFO - Batch 7 completed successfully in 2.74 seconds.
+2024-10-05 20:54:09,543 - INFO - Batch process completed with result: True
+2024-10-05 20:54:11,738 - INFO - Uploading downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183251/WinFormClient.png
+2024-10-05 20:54:11,749 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183251/WinFormClient.png
+2024-10-05 20:54:11,749 - INFO - Cleaned up file downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 20:54:11,749 - INFO - Batch 8 completed successfully in 2.88 seconds.
+2024-10-05 20:54:11,749 - INFO - Batch process completed with result: True
+2024-10-05 20:54:20,457 - INFO - Uploading downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz to Azure as ftp.gnu.org_21/gz/1728183260/gcc_2.95.1.tar.gz
+2024-10-05 20:54:20,517 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz to Azure as ftp.gnu.org_21/gz/1728183260/gcc_2.95.1.tar.gz
+2024-10-05 20:54:20,519 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 20:54:20,519 - INFO - Batch 1 completed successfully in 15.60 seconds.
+2024-10-05 20:54:20,519 - INFO - Batch process completed with result: True
+2024-10-05 20:54:29,993 - INFO - Uploading downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183269/manual_en.pdf
+2024-10-05 20:54:30,052 - INFO - Successfully uploaded downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183269/manual_en.pdf
+2024-10-05 20:54:30,054 - INFO - Cleaned up file downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 20:54:30,054 - INFO - Batch 9 completed successfully in 20.75 seconds.
+2024-10-05 20:54:30,054 - INFO - Batch process completed with result: True
+2024-10-05 20:54:30,057 - INFO - Batch processing complete. 9 succeeded, 0 failed out of 9 total batches.
+2024-10-05 21:01:39,851 - INFO - Started ingesting files with pid 31299
+2024-10-05 21:01:39,855 - INFO - Azure container already exists: your-azure-container-name
+2024-10-05 21:01:39,855 - INFO - Total batches to process: 9
+2024-10-05 21:01:39,861 - INFO - Batch 1 started processing.
+2024-10-05 21:01:39,861 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,861 - INFO - Batch 2 started processing.
+2024-10-05 21:01:39,861 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,861 - INFO - Batch 3 started processing.
+2024-10-05 21:01:39,862 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,862 - INFO - Batch 4 started processing.
+2024-10-05 21:01:39,862 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,862 - ERROR - Batch 1 failed due to error.
+2024-10-05 21:01:39,862 - ERROR - Batch 1 failed in 0.00 seconds.
+2024-10-05 21:01:39,862 - ERROR - Batch 2 failed due to error.
+2024-10-05 21:01:39,862 - ERROR - Batch 2 failed in 0.00 seconds.
+2024-10-05 21:01:39,862 - INFO - Batch 5 started processing.
+2024-10-05 21:01:39,862 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,862 - INFO - Batch 6 started processing.
+2024-10-05 21:01:39,862 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,862 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,862 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,862 - ERROR - Batch 4 failed due to error.
+2024-10-05 21:01:39,862 - ERROR - Batch 3 failed due to error.
+2024-10-05 21:01:39,862 - ERROR - Batch 5 failed due to error.
+2024-10-05 21:01:39,862 - ERROR - Batch 4 failed in 0.00 seconds.
+2024-10-05 21:01:39,862 - ERROR - Batch 5 failed in 0.00 seconds.
+2024-10-05 21:01:39,862 - ERROR - Batch 3 failed in 0.00 seconds.
+2024-10-05 21:01:39,862 - ERROR - Batch 6 failed due to error.
+2024-10-05 21:01:39,862 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,862 - INFO - Batch 7 started processing.
+2024-10-05 21:01:39,862 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,862 - ERROR - Batch 6 failed in 0.00 seconds.
+2024-10-05 21:01:39,862 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,862 - INFO - Batch 8 started processing.
+2024-10-05 21:01:39,862 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,862 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,862 - INFO - Batch 9 started processing.
+2024-10-05 21:01:39,862 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,862 - INFO - Processing batch with 1 files.
+2024-10-05 21:01:39,862 - ERROR - Batch 7 failed due to error.
+2024-10-05 21:01:39,862 - ERROR - Batch 7 failed in 0.00 seconds.
+2024-10-05 21:01:39,863 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,863 - ERROR - Batch 8 failed due to error.
+2024-10-05 21:01:39,863 - ERROR - Batch 8 failed in 0.00 seconds.
+2024-10-05 21:01:39,863 - ERROR - Batch 9 failed due to error.
+2024-10-05 21:01:39,863 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,863 - ERROR - Batch 9 failed in 0.00 seconds.
+2024-10-05 21:01:39,863 - INFO - Batch process completed with result: False
+2024-10-05 21:01:39,864 - INFO - Batch processing complete. 0 succeeded, 9 failed out of 9 total batches.
+2024-10-05 21:04:20,980 - INFO - Started ingesting files with pid 31826
+2024-10-05 21:04:20,984 - INFO - Azure container already exists: your-azure-container-name
+2024-10-05 21:04:20,984 - INFO - Total batches to process: 9
+2024-10-05 21:04:20,990 - INFO - Batch 1 started processing.
+2024-10-05 21:04:20,990 - INFO - Batch 2 started processing.
+2024-10-05 21:04:20,990 - INFO - Batch 3 started processing.
+2024-10-05 21:04:20,990 - INFO - Batch 4 started processing.
+2024-10-05 21:04:20,991 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/gnu/gcc/gcc-2.95.1.tar.gz to downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 21:04:20,991 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/find.txt.gz to downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 21:04:20,991 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.pdf to downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 21:04:20,991 - INFO - Downloading ftp://anonymous:anonymous@ftp.gnu.org/pub/ls-lrRt.txt.gz to downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 21:04:22,872 - INFO - Uploading downloads/ftp.gnu.org_21/gz/find.txt.gz to Azure as ftp.gnu.org_21/gz/1728183862/find.txt.gz
+2024-10-05 21:04:22,901 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/find.txt.gz to Azure as ftp.gnu.org_21/gz/1728183862/find.txt.gz
+2024-10-05 21:04:22,902 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/find.txt.gz
+2024-10-05 21:04:22,902 - INFO - Batch 2 completed successfully in 1.91 seconds.
+2024-10-05 21:04:22,902 - INFO - Batch 5 started processing.
+2024-10-05 21:04:22,902 - INFO - Downloading ftp://anonymous:anonymous@ftp.freebsd.org/pub/FreeBSD/doc/en/books/faq/faq_en.tar.gz to downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 21:04:22,903 - INFO - Batch process completed with result: True
+2024-10-05 21:04:23,289 - INFO - Uploading downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz to Azure as ftp.gnu.org_21/gz/1728183863/ls_lrRt.txt.gz
+2024-10-05 21:04:23,289 - INFO - Uploading downloads/ftp.freebsd.org_21/pdf/faq_en.pdf to Azure as ftp.freebsd.org_21/pdf/1728183863/faq_en.pdf
+2024-10-05 21:04:23,311 - INFO - Successfully uploaded downloads/ftp.freebsd.org_21/pdf/faq_en.pdf to Azure as ftp.freebsd.org_21/pdf/1728183863/faq_en.pdf
+2024-10-05 21:04:23,311 - INFO - Cleaned up file downloads/ftp.freebsd.org_21/pdf/faq_en.pdf
+2024-10-05 21:04:23,311 - INFO - Batch 4 completed successfully in 2.32 seconds.
+2024-10-05 21:04:23,311 - INFO - Batch 6 started processing.
+2024-10-05 21:04:23,311 - INFO - Batch process completed with result: True
+2024-10-05 21:04:23,311 - INFO - Downloading sftp://demo:password@test.rebex.net:22/readme.txt to downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 21:04:23,312 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz to Azure as ftp.gnu.org_21/gz/1728183863/ls_lrRt.txt.gz
+2024-10-05 21:04:23,312 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/ls_lrRt.txt.gz
+2024-10-05 21:04:23,312 - INFO - Batch 3 completed successfully in 2.32 seconds.
+2024-10-05 21:04:23,312 - INFO - Batch process completed with result: True
+2024-10-05 21:04:23,312 - INFO - Batch 7 started processing.
+2024-10-05 21:04:23,312 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/KeyGenerator.png to downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 21:04:26,168 - INFO - Uploading downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183866/KeyGenerator.png
+2024-10-05 21:04:26,174 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/KeyGenerator.png to Azure as test.rebex.net_22/png/1728183866/KeyGenerator.png
+2024-10-05 21:04:26,174 - INFO - Cleaned up file downloads/test.rebex.net_22/png/KeyGenerator.png
+2024-10-05 21:04:26,174 - INFO - Batch 7 completed successfully in 2.86 seconds.
+2024-10-05 21:04:26,174 - INFO - Batch 8 started processing.
+2024-10-05 21:04:26,174 - INFO - Batch process completed with result: True
+2024-10-05 21:04:26,174 - INFO - Downloading sftp://demo:password@test.rebex.net:22/pub/example/WinFormClient.png to downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 21:04:26,428 - INFO - Uploading downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183866/readme.txt
+2024-10-05 21:04:26,442 - INFO - Successfully uploaded downloads/test.rebex.net_22/txt/readme.txt to Azure as test.rebex.net_22/txt/1728183866/readme.txt
+2024-10-05 21:04:26,442 - INFO - Cleaned up file downloads/test.rebex.net_22/txt/readme.txt
+2024-10-05 21:04:26,442 - INFO - Batch 6 completed successfully in 3.13 seconds.
+2024-10-05 21:04:26,442 - INFO - Batch 9 started processing.
+2024-10-05 21:04:26,442 - INFO - Batch process completed with result: True
+2024-10-05 21:04:26,442 - INFO - Downloading sftp://demo:demo@demo.wftpserver.com:2222/download/manual_en.pdf to downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 21:04:27,036 - INFO - Uploading downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz to Azure as ftp.freebsd.org_21/gz/1728183867/faq_en.tar.gz
+2024-10-05 21:04:27,060 - INFO - Successfully uploaded downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz to Azure as ftp.freebsd.org_21/gz/1728183867/faq_en.tar.gz
+2024-10-05 21:04:27,060 - INFO - Cleaned up file downloads/ftp.freebsd.org_21/gz/faq_en.tar.gz
+2024-10-05 21:04:27,060 - INFO - Batch 5 completed successfully in 4.16 seconds.
+2024-10-05 21:04:27,060 - INFO - Batch process completed with result: True
+2024-10-05 21:04:29,188 - INFO - Uploading downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183869/WinFormClient.png
+2024-10-05 21:04:29,202 - INFO - Successfully uploaded downloads/test.rebex.net_22/png/WinFormClient.png to Azure as test.rebex.net_22/png/1728183869/WinFormClient.png
+2024-10-05 21:04:29,202 - INFO - Cleaned up file downloads/test.rebex.net_22/png/WinFormClient.png
+2024-10-05 21:04:29,202 - INFO - Batch 8 completed successfully in 3.03 seconds.
+2024-10-05 21:04:29,202 - INFO - Batch process completed with result: True
+2024-10-05 21:04:41,412 - INFO - Uploading downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz to Azure as ftp.gnu.org_21/gz/1728183881/gcc_2.95.1.tar.gz
+2024-10-05 21:04:41,480 - INFO - Successfully uploaded downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz to Azure as ftp.gnu.org_21/gz/1728183881/gcc_2.95.1.tar.gz
+2024-10-05 21:04:41,481 - INFO - Cleaned up file downloads/ftp.gnu.org_21/gz/gcc_2.95.1.tar.gz
+2024-10-05 21:04:41,481 - INFO - Batch 1 completed successfully in 20.49 seconds.
+2024-10-05 21:04:41,482 - INFO - Batch process completed with result: True
+2024-10-05 21:04:54,227 - INFO - Uploading downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183894/manual_en.pdf
+2024-10-05 21:04:54,291 - INFO - Successfully uploaded downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf to Azure as demo.wftpserver.com_2222/pdf/1728183894/manual_en.pdf
+2024-10-05 21:04:54,293 - INFO - Cleaned up file downloads/demo.wftpserver.com_2222/pdf/manual_en.pdf
+2024-10-05 21:04:54,293 - INFO - Batch 9 completed successfully in 27.85 seconds.
+2024-10-05 21:04:54,293 - INFO - Batch process completed with result: True
+2024-10-05 21:04:54,296 - INFO - Batch processing complete. 9 succeeded, 0 failed out of 9 total batches.
