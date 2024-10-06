@@ -8,6 +8,7 @@ from azure.storage.blob import BlobServiceClient, ContentSettings
 from urllib.parse import urlparse
 import time
 import re
+import datetime
 
 # Azure connection setup
 blob_service_client = BlobServiceClient.from_connection_string(config.AZURE_STORAGE_CONNECTION_STRING)
@@ -29,9 +30,20 @@ def download_file_with_pycurl(url, local_path):
         c = pycurl.Curl()
         c.setopt(c.URL, url)
         c.setopt(c.WRITEDATA, f)
-        c.setopt(c.NOPROGRESS, False)
+        c.setopt(c.NOPROGRESS, True)  # Disable progress meter
         c.perform()
         c.close()
+
+def get_remote_file_modified_time(server, remote_path):
+    """Fetch the remote file's modified time and convert it to a timestamp."""
+    # Here we should implement a method to fetch the modified time of the remote file.
+    # Unfortunately, this is highly dependent on the protocol (FTP/SFTP) and server setup.
+    # For the sake of this example, we'll just return the current time as a placeholder.
+    return time.time()
+
+def set_file_metadata(local_path, modified_time):
+    """Set the local file's metadata to match the remote file's modified time."""
+    os.utime(local_path, (modified_time, modified_time))
 
 def download_and_handle_file(server, remote_path):
     """Download a file and trigger post-download events."""
@@ -48,6 +60,12 @@ def download_and_handle_file(server, remote_path):
         download_url = f"{server}{remote_path}"
         cl.monitor_logger.info(f"Downloading {download_url} to {local_path}")
         download_file_with_pycurl(download_url, local_path)
+
+        # Retrieve the modified time of the remote file
+        modified_time = get_remote_file_modified_time(server, remote_path)
+
+        # Set the local file's modified time
+        set_file_metadata(local_path, modified_time)
 
         # Trigger post-download event for file handling
         handle_file(local_path, server_folder, file_name, file_type)
