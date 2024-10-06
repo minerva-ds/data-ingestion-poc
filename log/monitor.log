@@ -1491,3 +1491,186 @@
 2024-10-06 09:01:28,925 - INFO - Batch 1 completed successfully in 0.05 seconds.
 2024-10-06 09:01:28,925 - INFO - Batch process completed with result: True
 2024-10-06 09:01:28,927 - INFO - Batch processing complete. 1 succeeded, 0 failed out of 1 total batches.
+2024-10-06 09:44:36,760 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:44:36,760 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:44:36,765 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:44:36,765 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:44:36,770 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:44:36,770 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:44:36,771 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:46:56,356 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:46:56,356 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:46:56,361 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:46:56,361 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:46:56,366 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:46:56,366 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:46:56,367 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:47:06,644 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:47:06,644 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:47:06,649 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:47:06,649 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:47:06,654 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:47:06,654 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:47:06,655 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:48:27,792 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:48:27,792 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:48:27,797 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:48:27,798 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:48:27,803 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:48:27,803 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:48:27,804 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:49:50,775 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:49:50,775 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:49:50,782 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:49:50,782 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:49:50,789 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:49:50,789 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:49:50,790 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:49:58,065 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:49:58,065 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:49:58,070 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:49:58,070 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:49:58,075 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:49:58,075 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:49:58,075 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:51:21,172 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:51:21,172 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:51:21,177 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:51:21,177 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:51:21,182 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:51:21,182 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:51:21,183 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:53:24,921 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:53:24,921 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:53:24,927 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:53:24,927 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:53:24,932 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:53:24,932 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:53:24,932 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:56:04,153 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:56:04,153 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:56:04,159 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:56:04,159 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:56:04,167 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:56:04,167 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:56:04,168 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 09:56:30,606 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:56:30,606 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:56:30,611 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 09:56:30,611 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 09:56:30,616 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 09:56:30,616 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 09:56:30,617 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:00:56,538 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:00:56,539 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:00:56,544 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:00:56,544 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:00:56,549 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:00:56,549 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:00:56,550 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:02:28,789 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:02:28,789 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:02:28,795 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:02:28,795 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:02:28,800 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:02:28,800 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:02:28,801 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:05:36,987 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:05:36,987 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:05:36,993 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:05:36,993 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:05:36,998 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:05:36,998 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:05:36,999 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:08:42,073 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:08:42,073 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:08:42,078 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:08:42,078 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:08:42,083 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:08:42,083 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:08:42,084 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:11:16,340 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:11:16,340 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:11:16,345 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:11:16,345 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:11:16,351 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:11:16,351 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:11:16,351 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:15:32,367 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:15:32,368 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:15:32,373 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:15:32,373 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:15:32,378 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:15:32,378 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:15:32,378 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:20:19,164 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:20:19,164 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:20:19,169 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:20:19,169 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:20:19,175 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:20:19,175 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:20:19,175 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:22:04,012 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:22:04,012 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:22:04,017 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:22:04,017 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:22:04,022 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:22:04,022 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:22:04,023 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:22:37,565 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:22:37,566 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:22:37,571 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:22:37,571 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:22:37,577 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:22:37,577 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:22:37,577 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:26:45,969 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:26:45,969 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:26:45,975 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:26:45,975 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:26:45,980 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:26:45,980 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:26:45,981 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:27:18,478 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:27:18,478 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:27:18,483 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:27:18,483 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:27:18,488 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:27:18,488 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:27:18,489 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:27:18,509 - INFO - Uploading downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:27:18,517 - INFO - Successfully uploaded downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:27:18,520 - INFO - Upload verified for downloads/test_upload.txt: size matches
+2024-10-06 10:31:08,221 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:31:08,222 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:31:08,227 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:31:08,227 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:31:08,232 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:31:08,232 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:31:08,233 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:31:08,238 - INFO - Uploading downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:31:08,243 - INFO - Successfully uploaded downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:31:08,246 - INFO - Upload verified for downloads/test_upload.txt: size matches
+2024-10-06 10:31:18,002 - INFO - Uploading downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:31:18,011 - INFO - Successfully uploaded downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:31:18,013 - INFO - Upload verified for downloads/test_upload.txt: size matches
+2024-10-06 10:35:12,298 - INFO - Downloaded file downloads/gcc-2.95.1.tar.gz, size: 12872765 bytes
+2024-10-06 10:35:12,298 - INFO - Successfully downloaded and verified file downloads/gcc-2.95.1.tar.gz with original timestamp
+2024-10-06 10:35:12,314 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:35:12,314 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:35:12,320 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:35:12,320 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:35:12,320 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:35:12,327 - INFO - Uploading downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:35:12,336 - INFO - Successfully uploaded downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:35:12,338 - INFO - Upload verified for downloads/test_upload.txt: size matches
+2024-10-06 10:35:37,000 - INFO - Downloaded file downloads/faq_en.pdf, size: 231353 bytes
+2024-10-06 10:35:37,001 - INFO - Successfully downloaded and verified file downloads/faq_en.pdf with original timestamp
+2024-10-06 10:35:37,012 - INFO - Downloaded file downloads/test_file.zip, size: 5243004 bytes
+2024-10-06 10:35:37,012 - INFO - Successfully downloaded and verified file downloads/test_file.zip with original timestamp
+2024-10-06 10:35:37,017 - INFO - Set original timestamp for downloads/extracted_test_file/temp_file.txt
+2024-10-06 10:35:37,017 - INFO - Extracted downloads/extracted_test_file/temp_file.txt with original timestamp
+2024-10-06 10:35:37,018 - INFO - Deleted original zip file: downloads/test_file.zip
+2024-10-06 10:35:37,024 - INFO - Uploading downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:35:37,028 - INFO - Successfully uploaded downloads/test_upload.txt to Azure as test_server_folder/txt/test_upload.txt
+2024-10-06 10:35:37,031 - INFO - Upload verified for downloads/test_upload.txt: size matches

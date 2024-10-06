@@ -18,9 +18,19 @@ def get_server_folder_name(server):
     return f"{parsed.hostname}_{parsed.port or (21 if parsed.scheme == 'ftp' else 22)}"
 
 def sanitize_filename(filename):
-    sanitized = re.sub(r'[^A-Za-z0-9\-\.]', '_', filename).strip('-.')
-    sanitized = re.sub(r'[-_]+', '_', sanitized)
-    return sanitized
+    # Replace any Unicode characters with hyphens
+    filename = re.sub(r'[^\x00-\x7F]', '-', filename)
+    
+    # Replace disallowed characters (except for dots, hyphens, underscores, and spaces) with a hyphen
+    filename = re.sub(r'[^A-Za-z0-9\.\-_ ]', '-', filename)
+    
+    # Remove control characters (range \x00-\x1F and \x7F), replacing with hyphens
+    filename = re.sub(r'[\x00-\x1F\x7F]', '-', filename)
+    
+    # Strip leading or trailing spaces without leaving hyphens at the ends
+    filename = filename.strip(' ')
+    
+    return filename
 
 def get_remote_file_size(url):
     """Get the file size from the remote server before downloading."""
