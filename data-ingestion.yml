@@ -56,6 +56,7 @@ dependencies:
   - pluggy=1.5.0=pyhd8ed1ab_0
   - pycparser=2.22=pyhd8ed1ab_0
   - pycurl=7.45.3=py312h6ac1089_2
+  - pyftpdlib=1.5.10=pyhd8ed1ab_0
   - pyopenssl=24.2.1=pyhd8ed1ab_2
   - pysocks=1.7.1=pyha2e5f31_6
   - pytest=8.3.3=pyhd8ed1ab_0

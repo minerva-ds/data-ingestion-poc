@@ -7,7 +7,7 @@ MAX_PARALLEL_PROCESSES = 4  # Number of child processes to run in parallel
 # Child process settings
 CHILD_PROCESS = {
     "timeout": 300,  # Timeout for each child process in seconds
-    "max_concurrent_tasks": 3,  # Max concurrent downloads within a single child process
+    "max_concurrent_tasks": 3,  # Max concurrent downloads within a single child process, placeholder for future functionality
     # Optional ToDo settings
     # "retries": 3,    # Number of retries for a failed child process
     # "retry_delay": 5,  # Delay between retries in seconds
